@@ -63,3 +63,16 @@
             margin: inherit;
             padding: inherit
         }
+
+        #selector {
+            color: black;
+            margin-right: 10px;
+            margin-top: 10px;
+            background-color: #ffe2d3;
+
+        }
+        hr {
+            border: 10px #ffe2d3;
+            border-radius: 5px;
+            
+        }
