@@ -1,0 +1,65 @@
+        body {
+            background-color: #fc5a03;
+            align-items: center;
+        }
+
+        h1 {
+            color: #ffe2d3;
+            text-align: center;
+            font-family: 'Trebuchet MS', sans-serif;
+            text-shadow: 2px 2px #000000;
+        }
+
+        #top {
+            font-family: 'Trebuchet MS', sans-serif;
+            background-color: #ffc8ad;
+            border-radius: 25px 25px 0px 0px;
+            text-align: center;
+            width: 80%;
+            margin: auto;
+            padding: 4px;
+            font-weight: bold;
+        }
+
+        #bottom {
+            font-family: 'Trebuchet MS', sans-serif;
+            background-color: #ffc8ad;
+            border-radius: 0px 0px 25px 25px;
+            text-align: center;
+            width: 80%;
+            margin: auto;
+            padding: 4px;
+        }
+
+        p {
+            font-family: 'Trebuchet MS', sans-serif;
+            background-color: #ffe2d3;
+            color: #000;
+            max-width: 80%;
+            text-align: center;
+            margin: auto;
+            padding: 4px
+        }
+
+        #warmup {
+            font-family: 'Trebuchet MS', sans-serif;
+            background-color: #ffe2d3;
+            color: #000;
+            max-width: 80%;
+            text-align: center;
+            margin: auto;
+            padding: 4px;
+            border-radius: 0px 0px 25px 25px;
+        }
+
+        p.goal_inst {
+            font-size: small;
+            font-style: italic;
+            font-family: inherit;
+            background-color: inherit;
+            color: inherit;
+            max-width: inherit;
+            text-align: inherit;
+            margin: inherit;
+            padding: inherit
+        }
