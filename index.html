@@ -13,6 +13,7 @@
     <select id="selector">
         <option value="template1">01</option>
         <option value="template3">03</option>
+        <option value="template4">04</option>
     </select>
     <h1>Tread 50 Templates</h1>
 
@@ -24,7 +25,7 @@
 
     <br>
 
-    <div id="template1" style="display: block;">
+    <div id="template1" class="content-div" style="display: none;">
         <div id="top">Block 1 - 8:00</div>
         <p><i><small>Goal: Accumulate as much distance as possible.</small></i></p>
         <p><strong>0.1 Mile Push <small>(PW 0.5 Mile @4%+)</small></strong><br>
@@ -43,6 +44,7 @@
             <strong>0.1 Mile Base <small>(PW 0.5 Mile @4%+)</small></strong>
         </p>
         <p><i><small>Repeat until time is up. Check and remember distance.</small></i></p>
+
         <div id="bottom">~1.30 Walking Recovery</div>
 
         <br>
@@ -63,11 +65,11 @@
         <div id="bottom">Cool Down</div>
     </div>
 
-    <div id="template3" style="display: none;">
+    <div id="template3" class="content-div" style="display: none;">
         <div id="top">Block 1 - 7:00</div>
         <p><i><small>Goal: Accumulate as much distance as possible.</small></i></p>
         <p><strong><i>4 ROUNDS</i><br>
-                1:00 Mile Push <small>(PW @6%+)</small><br>
+                1:00 Push <small>(PW @6%+)</small><br>
                 &darr;<br>
                 0:30 Base</strong>
         </p>
@@ -91,7 +93,7 @@
         <div id="top">Block 3 (Repeat of Block 1) - 7:00</div>
         <p><i><small>Goal: Match or beat distance from Block 2.</small></i></p>
         <p><strong><i>4 ROUNDS</i><br>
-                1:00 Mile Push <small>(PW @6%+)</small><br>
+                1:00 Push <small>(PW @6%+)</small><br>
                 &darr;<br>
                 0:30 Base</strong>
         </p>
@@ -119,6 +121,55 @@
         <div id="bottom">Cool Down</div>
     </div>
 
+    
+    <div id="template4" class="content-div" style="display: none;">
+        <div id="top">Block 1 - 12:00</div>
+        <p><i><small>Goal: Complete AMRoundsAP.</small></i></p>
+        <p><strong>
+                0.25 Mile Push <small>(PW 0.13 Mile @6%+)</small><br>
+                &darr;<br>
+                0.5 Mile Base <small>(PW 0.25 Mile)</small></strong>
+        </p>
+        <p><i><small>Repeat until time is up.</small></i></p>
+        <div id="bottom">~1.30 Walking Recovery</div>
+
+        <br>
+
+        <div id="top">Block 2 - 12:00</div>
+        <p><i><small>Goal: Maintain or increase speed (PWs included) as block progresses.</small></i></p>
+        <p><strong>
+                0.25 Mile Base @4% <small>(PW 0.13 Mile @6%+)</small><br>
+                &darr;<br>
+                0.25 Mile Base @3% <small>(PW 0.13 Mile @5%+)</small><br>
+                &darr;<br>
+                0.25 Mile Base @2% <small>(PW 0.13 Mile @4%+)</small><br>
+                &darr;<br>
+                0.25 Mile Base @1% <small>(PW 0.25 Mile)</small></strong>
+        </p>
+        <p><i><small>Repeat block or tread until time is up.</small></i></p>
+        <div id="bottom">~1.30 Walking Recovery</div>
+
+        <br>
+
+        <div id="top">Block 3 - 12:00</div>
+        <p><i><small>Goal: Match or beat distance from Block 2.</small></i></p>
+        <p><strong>
+                0.1 Mile Push <small>(PW 0.05 Mile @8%+)</small><br>
+                &darr;<br>
+                0.1 Mile All Out <small>(PW 0.05 Mile @10%+)</small><br>
+                &darr;<br>
+                0.1 Mile Walking Recovery <small>(PW 0.05 Mile)</small>/<br>
+                Get Back to Base When Ready</strong>
+        </p>
+        <p><i><small>Repeat until time for finisher.</small></i></p>
+        <p><strong>Last 0:30 All Out <small>(PW @10%+)</small></strong></p>
+        <div id="bottom">Cool Down</div>
+    </div>
+    <hr>
+    <p id="disclaimer">Tread 50 templates are property of OrangeTheory Fitness and are used here
+         for personal reference only (and also as a coding exercise).</p>
+
+<script src="script.js"></script> 
 </body>
 
 </html>
