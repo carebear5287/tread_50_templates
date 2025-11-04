@@ -1,40 +1,42 @@
         body {
-            background-color: #fc5a03;
+            background-color: #111111;
             align-items: center;
         }
 
         h1 {
-            color: #ffe2d3;
+            color: #d8c0b3;
             text-align: center;
             font-family: 'Trebuchet MS', sans-serif;
-            text-shadow: 2px 2px #000000;
+            text-shadow: 2px 2px #4d4642;
         }
 
         #top {
             font-family: 'Trebuchet MS', sans-serif;
-            background-color: #ffc8ad;
+            background-color: #302e2d;
             border-radius: 25px 25px 0px 0px;
             text-align: center;
             width: 80%;
             margin: auto;
             padding: 4px;
             font-weight: bold;
+            color: #d8c0b3
         }
 
         #bottom {
             font-family: 'Trebuchet MS', sans-serif;
-            background-color: #ffc8ad;
+            background-color: #302e2d;
             border-radius: 0px 0px 25px 25px;
             text-align: center;
             width: 80%;
             margin: auto;
             padding: 4px;
+            color: #d8c0b3
         }
 
         p {
             font-family: 'Trebuchet MS', sans-serif;
-            background-color: #ffe2d3;
-            color: #000;
+            background-color: #4d4642;
+            color: #d8c0b3;
             max-width: 80%;
             text-align: center;
             margin: auto;
@@ -43,8 +45,8 @@
 
         #warmup {
             font-family: 'Trebuchet MS', sans-serif;
-            background-color: #ffe2d3;
-            color: #000;
+            background-color: #4d4642;
+            color: #d8c0b3;
             max-width: 80%;
             text-align: center;
             margin: auto;
@@ -66,23 +68,23 @@
 
         #selector {
             float: right;
-            color: black;
+            color: #d8c0b3;
             margin-right: 10px;
             margin-top: 4px;
-            background-color: #ffe2d3;
-            border-color: #000000;
+            background-color: #4d4642;
+            border-color: #d8c0b3;
         }
 
         #disclaimer {
-            color: #000;
+            color: #d8c0b3;
             font-size: x-small;
-            background-color: #fc5a03;
+            background-color: #111111;
         }
 
         hr{
             border: 0px;
             height: 1px;
-            background-color: #000000;
+            background-color: #d8c0b3;
             
         }
 
@@ -92,6 +94,6 @@
            margin-left: 10px;
            background-color: transparent; 
            border: none;
-           color: #000000;
+           color: #d8c0b3;
            margin-top: 0px; 
         }
